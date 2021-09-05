@@ -1,4 +1,4 @@
-module lido.test/loginTest
+module login4
 
 go 1.16
 
