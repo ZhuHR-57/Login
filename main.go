@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	db := common.GetDB()
+	db := common.InitDB()
 	defer  db.Close();
 	r := gin.Default()
 	r = CollectRoute(r)

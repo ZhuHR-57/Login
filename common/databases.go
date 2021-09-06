@@ -30,6 +30,8 @@ func InitDB() *gorm.DB{
 		panic("failed to open database, err: "+err.Error())
 	}
 
+	DB=db;
+
 	return db;
 }
 
